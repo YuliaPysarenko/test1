@@ -11,8 +11,8 @@ console.log(SimpleLightbox);
 
 console.log(galleryItems);
 
-export const galleryEl = document.querySelector(`.gallery`);
-export const galleryItemsEl = createdGalleryItemsEl(galleryItems);
+const galleryEl = document.querySelector(`.gallery`);
+ const galleryItemsEl = createdGalleryItemsEl(galleryItems);
 
 export const galleryAdjacentHTML = galleryEl.insertAdjacentHTML(`beforeend`, galleryItemsEl);
  
